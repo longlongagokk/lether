@@ -1,0 +1,27 @@
+{
+	"code":"200",
+	"message":"success",
+	"content":{
+		"pageInfo":{
+			"pageSize":10,
+			"page":1,
+			"recordCount":50,
+			"sortField":"e.id",
+			"sortDistanct":"desc",
+			"maxRow":10
+		},
+		"list":[
+			{"id":135,"createDate":"2018-08-23 18:28:46","updateDate":"2019-08-16 11:00:48","sort":56.00,"state":1,"userName":"class001","password":"0a4a5933674ce603220dadca335fcede","salt":"5e42c9c8-bf43-11e9-bddf-f7100f422d10","phone":"13985658955","email":"feaer@qq.dd","realName":"测试","idNumber":"","nickName":"测试用户2","roleId":44,"authToken":"5e42c9c9-bf43-11e9-bddf-f7100f422d10","lastLoginDate":"2019-08-15 17:59:00","passwordExpiration":"2019-09-14 17:59:28","roleName":"财务部","stateDesc":"正常"},
+			{"id":34,"createDate":"2018-08-22 18:41:06","updateDate":"2019-08-05 18:03:31","sort":53.00,"state":1,"userName":"adminsssf","password":"4e9062487bd252f1fa73a143a1943419","salt":"dfc17cddf77af5f77469a126099e8ac8","phone":"13434343434","email":"","realName":"得我","idNumber":"","nickName":"","roleId":63,"passwordExpiration":"2018-08-23 00:00:00","roleName":"测试组2","stateDesc":"正常"},
+			{"id":28,"createDate":"2017-12-09 21:29:06","updateDate":"2018-11-02 22:46:17","sort":1.00,"state":1,"userName":"testadmin","password":"1df108d1773587ce7d192cdd2cb32b3e","salt":"f3364168c25a8eebb542039db7b537f5","phone":"13695698852","email":"","realName":"楼兰啊","idNumber":"452224198112221127","nickName":"就是你了哟","roleId":63,"authToken":"0fa2f8a9565c229086e7eb24bd85cae7","lastLoginDate":"2018-10-10 12:00:29","passwordExpiration":"2024-12-29 00:00:00","roleName":"测试组2","stateDesc":"正常"},
+			{"id":26,"createDate":"2016-03-23 16:05:51","updateDate":"2019-06-27 16:15:16","sort":1111.00,"state":0,"userName":"longtest3","password":"ae4233ac0bec9cd91eda3bf22958306f","salt":"33973fd26136f84c6eef7fd8084748dc","phone":"13724256432","email":"","realName":"韦海鹤","idNumber":"454523199305153431","nickName":"longtest","roleId":32,"authToken":"e7d167a59559d345f0fed116d0887bce","lastLoginDate":"2018-03-22 14:42:45","passwordExpiration":"2024-12-31 00:00:00","roleName":"技术部","stateDesc":"无效"},
+			{"id":19,"createDate":"2018-01-26 09:41:29","updateDate":"2019-08-12 10:04:41","sort":52.00,"state":1,"userName":"laolongwan","password":"bffa2529652dd9d92990b3474263bccc","salt":"65192d881bd49cd3f4d2e8b4b02179b7","phone":"13724256432","email":"long@126.com","realName":"范儿是人","idNumber":"","nickName":"a","roleId":63,"authToken":"93351289696a8065874874f1fe31b0cc","passwordExpiration":"2018-02-28 00:00:00","roleName":"测试组2","stateDesc":"正常"},
+			{"id":26,"createDate":"2016-03-23 16:05:51","updateDate":"2019-06-27 16:15:16","sort":1111.00,"state":0,"userName":"longtest3","password":"ae4233ac0bec9cd91eda3bf22958306f","salt":"33973fd26136f84c6eef7fd8084748dc","phone":"13724256432","email":"","realName":"韦海鹤","idNumber":"454523199305153431","nickName":"longtest","roleId":32,"authToken":"e7d167a59559d345f0fed116d0887bce","lastLoginDate":"2018-03-22 14:42:45","passwordExpiration":"2024-12-31 00:00:00","roleName":"技术部","stateDesc":"无效"},
+			{"id":19,"createDate":"2018-01-26 09:41:29","updateDate":"2019-08-12 10:04:41","sort":52.00,"state":1,"userName":"laolongwan","password":"bffa2529652dd9d92990b3474263bccc","salt":"65192d881bd49cd3f4d2e8b4b02179b7","phone":"13724256432","email":"long@126.com","realName":"范儿是人","idNumber":"","nickName":"a","roleId":63,"authToken":"93351289696a8065874874f1fe31b0cc","passwordExpiration":"2018-02-28 00:00:00","roleName":"测试组2","stateDesc":"正常"},
+			{"id":26,"createDate":"2016-03-23 16:05:51","updateDate":"2019-06-27 16:15:16","sort":1111.00,"state":0,"userName":"longtest3","password":"ae4233ac0bec9cd91eda3bf22958306f","salt":"33973fd26136f84c6eef7fd8084748dc","phone":"13724256432","email":"","realName":"韦海鹤","idNumber":"454523199305153431","nickName":"longtest","roleId":32,"authToken":"e7d167a59559d345f0fed116d0887bce","lastLoginDate":"2018-03-22 14:42:45","passwordExpiration":"2024-12-31 00:00:00","roleName":"技术部","stateDesc":"无效"},
+			{"id":19,"createDate":"2018-01-26 09:41:29","updateDate":"2019-08-12 10:04:41","sort":52.00,"state":1,"userName":"laolongwan","password":"bffa2529652dd9d92990b3474263bccc","salt":"65192d881bd49cd3f4d2e8b4b02179b7","phone":"13724256432","email":"long@126.com","realName":"范儿是人","idNumber":"","nickName":"a","roleId":63,"authToken":"93351289696a8065874874f1fe31b0cc","passwordExpiration":"2018-02-28 00:00:00","roleName":"测试组2","stateDesc":"正常"},
+			
+			{"id":19,"createDate":"2018-01-26 09:41:29","updateDate":"2019-08-12 10:04:41","sort":52.00,"state":1,"userName":"laolongwan","password":"bffa2529652dd9d92990b3474263bccc","salt":"65192d881bd49cd3f4d2e8b4b02179b7","phone":"13724256432","email":"long@126.com","realName":"范儿是人","idNumber":"","nickName":"a","roleId":63,"authToken":"93351289696a8065874874f1fe31b0cc","passwordExpiration":"2018-02-28 00:00:00","roleName":"测试组2","stateDesc":"正常"}
+		]
+	}
+}

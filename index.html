@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>lBox示范用例</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link type="text/css" rel="stylesheet" href="style/public.css" />
+<link type="text/css" rel="stylesheet" href="style/gray.css" />
+<script type="text/javascript" src="scripts/jquery.1.12.4.js"></script>
+<script type="text/javascript" src="scripts/lbox.js?v=0.8748545"></script>
+<style>
+.test-box > div{line-height:30px;}
+</style>
+<script>
+var waitObj;
+function confirm(){
+	lBox.confirm({
+		title:"确定删除吗",
+		content:"删除会员id=4的积分记录",
+		btnConfirmFunc:function(){
+			var m = lBox.wait({content:"正在操作，请稍后..."});
+			setTimeout(function(){
+				m.immeClose(function(){
+						lBox.ok({delay:500,content:"操作成功！",success:function(){
+							lBox.alert({content:"重新加载列表来替换此函数"});
+						}});
+				});
+			},2000);
+		}
+	});
+}
+function iframe(){
+	lBox.iframe("新页面","inner.html",1000,600);
+}
+</script>
+</head>
+<body>
+	<div style="width:100%;margin:50px auto;" class="test-box">
+		<div style="margin-left:200px;">alert示例：
+		<button onclick="lBox.alert({content:'提示框',delay:5000})">alert</button>
+		</div>
+		<div style="margin-left:200px;">error 示例：
+		<button onclick="lBox.error({content:'提示框',delay:3000})">error</button>
+		</div>
+		<div style="margin-left:200px;">ok 示例：
+		<button onclick="lBox.ok({content:'提示框',delay:3000})">ok</button>
+		</div>
+		<div style="margin-left:200px;">wait 示例：
+		<button onclick="waitObj = lBox.wait({content:'3s后关闭弹窗'});setTimeout(function(){waitObj.close();},3000);">wait</button>
+		</div>
+		<div style="margin-left:200px;">confirm 示例：
+		<button onclick="confirm()">confirm</button>
+		</div>
+		<div style="margin-left:200px;">iframe 示例：
+		<button onclick="iframe()">iframe</button>
+		</div>
+		<div style="margin-left:200px;">打开 dataGrid
+		<a href="data-grid.html" target="_blank">dataGrid</button>
+		</div>
+	</div>
+</body>
+<html>
